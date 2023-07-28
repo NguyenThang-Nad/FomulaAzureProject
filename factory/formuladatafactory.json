@@ -1,0 +1,9 @@
+{
+	"name": "formuladatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "081f67db-1140-40eb-bdaa-51087c1c269d",
+		"tenantId": "c2e503d4-aac9-471b-8418-3fc33a07395c"
+	}
+}
