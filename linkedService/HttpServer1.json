@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "http://ergast.com/api/f1/drivers.json?litmiy=1000",
+			"url": "http://ergast.com/api/f1/drivers.json?litmiy=10",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
