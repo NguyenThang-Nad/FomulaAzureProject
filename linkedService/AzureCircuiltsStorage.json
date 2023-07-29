@@ -1,0 +1,7 @@
+{
+	"name": "AzureCircuiltsStorage",
+	"properties": {
+		"type": "AzureBlobStorage",
+		"annotations": []
+	}
+}
