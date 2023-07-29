@@ -1,0 +1,15 @@
+{
+	"name": "Circuilts_raw",
+	"properties": {
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "circuilts.json",
+				"container": "raw"
+			}
+		},
+		"schema": {}
+	}
+}
