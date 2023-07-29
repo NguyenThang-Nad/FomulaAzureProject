@@ -1,0 +1,11 @@
+{
+	"name": "AzureBlobStorage1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"containerUri": "https://formuladatalake123.blob.core.windows.net/raw",
+			"authenticationType": "Anonymous"
+		}
+	}
+}
