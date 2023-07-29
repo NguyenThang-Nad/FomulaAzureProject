@@ -2,7 +2,7 @@
 	"name": "Circuits_Source",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "Circuits_raw",
+			"referenceName": "Circuilts_source",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
