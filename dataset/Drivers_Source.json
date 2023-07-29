@@ -1,0 +1,12 @@
+{
+	"name": "Drivers_Source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "RestService4",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}
