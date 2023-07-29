@@ -1,0 +1,12 @@
+{
+	"name": "Circuits_Source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Circuits_raw",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	}
+}
