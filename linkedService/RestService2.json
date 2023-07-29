@@ -1,0 +1,12 @@
+{
+	"name": "RestService2",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "http://ergast.com/api/f1/results?limit=1000",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
