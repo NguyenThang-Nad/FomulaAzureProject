@@ -12,16 +12,12 @@ circuits_df.printSchema()
 
 # COMMAND ----------
 
-from pyspark.sql.functions import col
+from pyspark.sql.functions import col,current_timestamp
 
 # COMMAND ----------
 
 #drop colum url
 circuits_selected_df = circuits_df.drop(col("url"))
-
-# COMMAND ----------
-
-from pyspark.sql.functions import current_timestamp
 
 # COMMAND ----------
 
