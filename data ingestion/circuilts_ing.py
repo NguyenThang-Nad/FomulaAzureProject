@@ -37,7 +37,3 @@ display(circuits_final_df)
 
 #save dataframe as Parquet format
 circuits_final_df.write.mode("overwrite").parquet("/mnt/formuladatalake123/processed/circuits")
-
-# COMMAND ----------
-
-

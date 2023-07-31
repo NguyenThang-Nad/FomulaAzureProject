@@ -16,7 +16,6 @@ from pyspark.sql.functions import col,current_timestamp,lit,concat
 
 # COMMAND ----------
 
-
 drivers_select_df = drivers_df.withColumnRenamed("driverId", "driver_id") \
                                     .withColumnRenamed("driverRef", "driver_ref") \
                                     .withColumn("name", concat(col("forename"), lit(" "), col("surname"))) \

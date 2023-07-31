@@ -23,7 +23,3 @@ pit_final_stops_df = pit_stops_df.withColumnRenamed("driverId", "driver_id") \
 # COMMAND ----------
 
 pit_final_stops_df.write.mode("overwrite").parquet("/mnt/formuladatalake123/processed/pit_stops")
-
-# COMMAND ----------
-
-

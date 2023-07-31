@@ -17,7 +17,7 @@ from pyspark.sql.functions import col
 # COMMAND ----------
 
 #drop colum fp1_date,fp1_time,fp2_date,fp2_time,fp3_date,fp3_time,quali_date,quali_time,sprint_date,sprint_time
-columns_to_drop = ["fp1_date", "fp1_time", "fp2_date", "fp2_time", "fp3_date", "fp3_time", "quali_date", "quali_time", "sprint_date", "sprint_time"]
+columns_to_drop = ["fp1_date", "fp1_time", "fp2_date", "fp2_time", "fp3_date", "fp3_time", "quali_date", "quali_time", "sprint_date", "sprint_time","url"]
 races_selected_df = races_df.drop(*columns_to_drop)
 
 # COMMAND ----------
@@ -32,7 +32,7 @@ from pyspark.sql.functions import to_timestamp, concat, col, lit,current_timesta
 
 races_final_df = races_selected_df.withColumnRenamed("raceId","race_id") \
     .withColumnRenamed("year","race_year") \
-    .withColumnRenamed("circuitld","circuit_id") \
+    .withColumnRenamed("circuitId","circuit_id") \
     .withColumn("race_timestamp", to_timestamp(concat(col('date'), lit(' '), col('time')), 'yyyy-MM-dd HH:mm:ss')).withColumn("ingestion_date",current_timestamp())
 
 # COMMAND ----------
@@ -42,7 +42,3 @@ display(races_final_df)
 # COMMAND ----------
 
 races_final_df.write.mode("overwrite").parquet("/mnt/formuladatalake123/processed/races")
-
-# COMMAND ----------
-
-

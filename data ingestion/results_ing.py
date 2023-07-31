@@ -16,7 +16,6 @@ from pyspark.sql.functions import lit,current_timestamp,col
 
 # COMMAND ----------
 
-
 results_final_df = results_df.withColumnRenamed("resultId", "result_id") \
                                     .withColumnRenamed("raceId", "race_id") \
                                     .withColumnRenamed("driverId", "driver_id") \
@@ -49,7 +48,3 @@ display(results_final_df)
 
 #save dataframe as Parquet format
 results_final_df.write.mode("overwrite").parquet("/mnt/formuladatalake123/processed/results")
-
-# COMMAND ----------
-
-

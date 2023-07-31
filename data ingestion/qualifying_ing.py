@@ -30,7 +30,3 @@ display(qualifying_final_df)
 
 #save dataframe as Parquet format
 qualifying_final_df.write.mode("overwrite").parquet("/mnt/formuladatalake123/processed/qualifying")
-
-# COMMAND ----------
-
-
