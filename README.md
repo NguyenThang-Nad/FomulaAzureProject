@@ -7,5 +7,6 @@ http://ergast.com/mrd/
 The data source is available through API/JSON/XML format or dowloaded CSV files.ER diagram of source data here:
 ![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/9507e394-1738-4029-ac85-4f54733a2142)
 # Solution Archirecture
+![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/71812f92-2b36-40d8-9615-ba3d88cc10a0)
 
 
