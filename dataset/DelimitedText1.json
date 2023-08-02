@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "constructors.csv",
+				"fileName": "races.csv",
 				"container": "raw"
 			},
 			"columnDelimiter": ",",
