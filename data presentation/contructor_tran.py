@@ -1,7 +1,7 @@
 # Databricks notebook source
-raw_folder_path = "/mnt/formuladatalake123/raw"
-processed_folder_path = "/mnt/formuladatalake123/processed"
-presentation_folder_path = "/mnt/formuladatalake123/presentation"
+raw_folder_path = "/mnt/formuladatalake12/raw"
+processed_folder_path = "/mnt/formuladatalake12/processed"
+presentation_folder_path = "/mnt/formuladatalake12/presentation"
 
 # COMMAND ----------
 
@@ -37,3 +37,7 @@ final_contructor_df = constructor_standings_df.withColumn("rank", rank().over(co
 # COMMAND ----------
 
 display(final_contructor_df)
+
+# COMMAND ----------
+
+final_contructor_df.write.mode("overwrite").parquet(f"{presentation_folder_path}/constructors_results")

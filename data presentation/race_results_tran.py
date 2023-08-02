@@ -1,7 +1,7 @@
 # Databricks notebook source
 raw_folder_path = "/mnt/formuladatalake123/raw"
-processed_folder_path = "/mnt/formuladatalake123/processed"
-presentation_folder_path = "/mnt/formuladatalake123/presentation"
+processed_folder_path = "/mnt/formuladatalake12/processed"
+presentation_folder_path = "/mnt/formuladatalake12/presentation"
 
 # COMMAND ----------
 
