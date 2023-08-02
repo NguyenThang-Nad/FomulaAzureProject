@@ -24,6 +24,7 @@
 					],
 					"storeSettings": {
 						"type": "AzureBlobStorageReadSettings",
+						"recursive": true,
 						"enablePartitionDiscovery": false
 					},
 					"formatSettings": {
@@ -44,6 +45,10 @@
 				],
 				"userProperties": [],
 				"typeProperties": {
+					"expression": {
+						"value": "@equals(activity('Raw Circuilts').output.itemName,'circuits.csv')",
+						"type": "Expression"
+					},
 					"ifTrueActivities": [
 						{
 							"name": "Ingest circuilts",
