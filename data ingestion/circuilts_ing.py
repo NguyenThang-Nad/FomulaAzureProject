@@ -3,7 +3,7 @@
 circuits_df = spark.read \
     .option("header", "true") \
     .option("inferSchema", "true") \
-    .csv("/mnt/formuladatalake123/raw/circuits.csv") 
+    .csv("/mnt/formuladatalake12/raw/circuits.csv") 
 
 # COMMAND ----------
 
@@ -22,7 +22,7 @@ circuits_selected_df = circuits_df.drop(col("url"))
 # COMMAND ----------
 
 #rename required columns
-circuits_renamed_df = circuits_selected_df.withColumnRenamed("circuitId", "circuit_id") \
+circuits_final_df = circuits_selected_df.withColumnRenamed("circuitId", "circuit_id") \
 .withColumnRenamed("circuitRef", "circuit_ref") \
 .withColumnRenamed("lat", "latitude") \
 .withColumnRenamed("lng", "longitude") \
@@ -36,4 +36,4 @@ display(circuits_final_df)
 # COMMAND ----------
 
 #save dataframe as Parquet format
-circuits_final_df.write.mode("overwrite").parquet("/mnt/formuladatalake123/processed/circuits")
+circuits_final_df.write.mode("overwrite").parquet("/mnt/formuladatalake12/processed/circuits")

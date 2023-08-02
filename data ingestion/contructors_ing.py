@@ -3,7 +3,7 @@
 constructors_df = spark.read \
     .option("header", "true") \
     .option("inferSchema", "true") \
-    .csv("/mnt/formuladatalake123/raw/constructors.csv") 
+    .csv("/mnt/formuladatalake12/raw/constructors.csv") 
 
 # COMMAND ----------
 
@@ -31,4 +31,8 @@ display(constructor_final_df)
 # COMMAND ----------
 
 #save dataframe as Parquet format
-constructor_final_df.write.mode("overwrite").parquet("/mnt/formuladatalake123/processed/constructors")
+constructor_final_df.write.mode("overwrite").parquet("/mnt/formuladatalake12/processed/constructors")
+
+# COMMAND ----------
+
+

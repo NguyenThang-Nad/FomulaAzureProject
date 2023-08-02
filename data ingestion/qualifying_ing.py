@@ -3,7 +3,7 @@
 qualifying_df = spark.read \
     .option("header", "true") \
     .option("inferSchema", "true") \
-    .csv("/mnt/formuladatalake123/raw/qualifying.csv") 
+    .csv("/mnt/formuladatalake12/raw/qualifying.csv") 
 
 # COMMAND ----------
 
@@ -29,4 +29,4 @@ display(qualifying_final_df)
 # COMMAND ----------
 
 #save dataframe as Parquet format
-qualifying_final_df.write.mode("overwrite").parquet("/mnt/formuladatalake123/processed/qualifying")
+qualifying_final_df.write.mode("overwrite").parquet("/mnt/formuladatalake12/processed/qualifying")
