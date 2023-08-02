@@ -1,0 +1,9 @@
+{
+	"name": "FormulaFactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "74a55c1e-7ecd-491c-8e90-528914e46190",
+		"tenantId": "591cdd99-bf2d-44d1-8645-58f8b695c527"
+	}
+}
