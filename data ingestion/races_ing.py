@@ -3,7 +3,7 @@
 races_df = spark.read \
     .option("header", "true") \
     .option("inferSchema", "true") \
-    .csv("/mnt/formuladatalake123/raw/races.csv") 
+    .csv("/mnt/formuladatalake12/raw/races.csv") 
 
 # COMMAND ----------
 
@@ -41,4 +41,4 @@ display(races_final_df)
 
 # COMMAND ----------
 
-races_final_df.write.mode("overwrite").parquet("/mnt/formuladatalake123/processed/races")
+races_final_df.write.mode("overwrite").parquet("/mnt/formuladatalake12/processed/races")

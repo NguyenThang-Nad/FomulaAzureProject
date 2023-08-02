@@ -3,7 +3,7 @@
 drivers_df = spark.read \
     .option("header", "true") \
     .option("inferSchema", "true") \
-    .csv("/mnt/formuladatalake123/raw/drivers.csv") 
+    .csv("/mnt/formuladatalake12/raw/drivers.csv") 
 
 # COMMAND ----------
 
@@ -35,4 +35,4 @@ display(drivers_final_df)
 # COMMAND ----------
 
 #save dataframe as Parquet format
-drivers_final_df.write.mode("overwrite").parquet("/mnt/formuladatalake123/processed/drivers")
+drivers_final_df.write.mode("overwrite").parquet("/mnt/formuladatalake12/processed/drivers")

@@ -3,7 +3,7 @@
 lap_times_df = spark.read \
     .option("header", "true") \
     .option("inferSchema", "true") \
-    .csv("/mnt/formuladatalake123/raw/lap_times.csv") 
+    .csv("/mnt/formuladatalake12/raw/lap_times.csv") 
 
 # COMMAND ----------
 
@@ -27,4 +27,4 @@ display(lap_times_final_df)
 # COMMAND ----------
 
 #save dataframe as Parquet format
-lap_times_final_df.write.mode("overwrite").parquet("/mnt/formuladatalake123/processed/lap_times")
+lap_times_final_df.write.mode("overwrite").parquet("/mnt/formuladatalake12/processed/lap_times")

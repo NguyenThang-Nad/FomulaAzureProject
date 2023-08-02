@@ -3,7 +3,7 @@
 results_df = spark.read \
     .option("header", "true") \
     .option("inferSchema", "true") \
-    .csv("/mnt/formuladatalake123/raw/results.csv") 
+    .csv("/mnt/formuladatalake12/raw/results.csv") 
 
 # COMMAND ----------
 
@@ -47,4 +47,4 @@ display(results_final_df)
 # COMMAND ----------
 
 #save dataframe as Parquet format
-results_final_df.write.mode("overwrite").parquet("/mnt/formuladatalake123/processed/results")
+results_final_df.write.mode("overwrite").parquet("/mnt/formuladatalake12/processed/results")

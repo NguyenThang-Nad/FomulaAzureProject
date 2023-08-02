@@ -3,7 +3,7 @@
 pit_stops_df = spark.read \
     .option("header", "true") \
     .option("inferSchema", "true") \
-    .csv("/mnt/formuladatalake123/raw/pit_stops.csv")
+    .csv("/mnt/formuladatalake12/raw/pit_stops.csv")
 
 # COMMAND ----------
 
@@ -22,4 +22,4 @@ pit_final_stops_df = pit_stops_df.withColumnRenamed("driverId", "driver_id") \
 
 # COMMAND ----------
 
-pit_final_stops_df.write.mode("overwrite").parquet("/mnt/formuladatalake123/processed/pit_stops")
+pit_final_stops_df.write.mode("overwrite").parquet("/mnt/formuladatalake12/processed/pit_stops")
