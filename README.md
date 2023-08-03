@@ -14,6 +14,8 @@ Create Azure storage and databricks workspace.Enable ADLS Gen 2 and create 3 con
 ![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/cf244e48-2a6a-4f85-b826-46ef01ca82a9)
 
 Create a DataBricks service on Azure and a standard cluster,and a notebook to setup credentials to Azure datalake.Next grant access for DataBricks to Azure DataLake using SAS token.Then mount DataBricks DBFS to Azure Data Lake.
+
+
 ![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/8d0ebe1d-bb6f-4ec6-89f4-509bdfc24327)
 
 ![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/f10b11c4-273b-4038-939f-b7859d102ebf)
