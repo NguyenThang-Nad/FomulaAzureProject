@@ -32,7 +32,3 @@ display(constructor_final_df)
 
 #save dataframe as Parquet format
 constructor_final_df.write.mode("overwrite").parquet("/mnt/formuladatalake12/processed/constructors")
-
-# COMMAND ----------
-
-
