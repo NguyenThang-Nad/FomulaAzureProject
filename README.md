@@ -30,7 +30,17 @@ The final step is to load tranformed table to Processed foder as Parquet format.
 in this project,business partner want to have the information of the 2023 year race.The information should contain the results,drivers and team.So what i'm going to do next is to extract relevant tables and columns and join them into reace_result table:
 ![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/84820c77-945f-42f1-a939-4d02f2780e69)
 Do another tranformation required by business partners is to extract Drivers and Contructors standing/rankings.
-## 
+## Create Data Pipelines in Azure Data Factory to orchestrate Databricks Notebooks
+Create if to check raw container conutains any files,if yes,we trigger Databricks notebooks.In order to do that,we can create 2 other activity,create a Linked service to Azure Data Lake Storage and set container as raw.
+![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/f644ac3c-6edd-4a3c-bbf8-0715ce95abb9)
+Create 3 Databricks activities to execute 3 tranformation notebook.
+![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/1d369203-79e4-4ccd-acac-7e474e710974)
+This pipeline also triggers the Ingestion Pipeline as the first step in the process.
+## Data Analysis and Data Visualization
+Create database and tables in Databricks stored in Hive Meta Store so they can visualize data in Power BI/Tableau/Looker.
+![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/1a8294a7-54b5-438d-b839-59403ca15b9e)
+## Data visualization 
+Power BI:
 ![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/f10b11c4-273b-4038-939f-b7859d102ebf)
 ![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/f5290789-7ab1-4666-a13b-7fc1ef931832)
 
