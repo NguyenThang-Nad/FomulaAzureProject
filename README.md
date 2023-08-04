@@ -46,9 +46,9 @@ Driver points in season 2023
 ![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/f5290789-7ab1-4666-a13b-7fc1ef931832)
 
 ## Technologies Used
-DataBricks
-ADF
-Python
-PySpark
-Power BI
-Azure
+DataBricks  
+ADF  
+Python  
+PySpark  
+Power BI  
+Azure  
