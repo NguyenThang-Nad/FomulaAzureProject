@@ -19,6 +19,14 @@ Create a DataBricks service on Azure and a standard cluster,and a notebook to se
 
 ![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/8d0ebe1d-bb6f-4ec6-89f4-509bdfc24327)
 
+## Data ingestion
+After mount Databricks to ADLS and loading source data to the raw container.Transformations such as chageing column name to makes them moew meaningful for data consumers.Drop column URL because we wont use it,also add the ingestion_date column with the current timestamp to track the data loading time.
+![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/84c39624-9332-48d0-aba6-97c22965c42b)
+
+The final step is to load tranformed table to Processed foder as Parquet format.
+![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/f9a7784a-2a5c-43d1-a4c6-98f14ada44e0)
+![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/6023fb45-cb0b-4e3d-bab5-015e56202838)
+
 ![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/f10b11c4-273b-4038-939f-b7859d102ebf)
 ![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/f5290789-7ab1-4666-a13b-7fc1ef931832)
 
