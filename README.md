@@ -26,7 +26,11 @@ After mount Databricks to ADLS and loading source data to the raw container.Tran
 The final step is to load tranformed table to Processed foder as Parquet format.
 ![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/f9a7784a-2a5c-43d1-a4c6-98f14ada44e0)
 ![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/6023fb45-cb0b-4e3d-bab5-015e56202838)
-
+## Data tranformation for Presentation Layer
+in this project,business partner want to have the information of the 2023 year race.The information should contain the results,drivers and team.So what i'm going to do next is to extract relevant tables and columns and join them into reace_result table:
+![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/84820c77-945f-42f1-a939-4d02f2780e69)
+Do another tranformation required by business partners is to extract Drivers and Contructors standing/rankings.
+## 
 ![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/f10b11c4-273b-4038-939f-b7859d102ebf)
 ![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/f5290789-7ab1-4666-a13b-7fc1ef931832)
 
