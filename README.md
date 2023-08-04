@@ -41,6 +41,7 @@ Create database and tables in Databricks stored in Hive Meta Store so they can v
 ![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/1a8294a7-54b5-438d-b839-59403ca15b9e)
 ## Data visualization 
 Power BI:
+Driver points in season 2023
 ![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/f10b11c4-273b-4038-939f-b7859d102ebf)
 ![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/f5290789-7ab1-4666-a13b-7fc1ef931832)
 
