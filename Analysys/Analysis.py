@@ -32,7 +32,3 @@ constructors_results_df.write.mode("overwrite").format("parquet").saveAsTable("f
 
 # MAGIC %sql
 # MAGIC select * from formula_db.race_results;
-
-# COMMAND ----------
-
-
