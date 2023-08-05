@@ -47,6 +47,8 @@ Power BI:
 Driver points in season 2023
 ![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/f10b11c4-273b-4038-939f-b7859d102ebf)
 ![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/f5290789-7ab1-4666-a13b-7fc1ef931832)
+![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/ca631e95-bb4a-4980-b49b-c0e901616385)
+![image](https://github.com/NguyenThang-Nad/FomulaAzureProject/assets/136436998/7ecb982b-b968-485a-89e9-7410bdda3feb)
 
 ## Technologies Used
 DataBricks  
